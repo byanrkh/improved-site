@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import Grotesk from "@/libs/fonts";
 import "./globals.css";
+import SmoothScrolling from "@/libs/SmoothScrolling";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full">
       <body className={`${Grotesk.className} antialiased h-full flex flex-col`}>
-        {children}
+        <SmoothScrolling>{children}</SmoothScrolling>
       </body>
     </html>
   );
