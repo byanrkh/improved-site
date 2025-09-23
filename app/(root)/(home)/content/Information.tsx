@@ -23,7 +23,7 @@ export default function Information() {
               </Link>
             </p>
             <p className="mt-5 text-justify">
-              I'm a frontend developer focused on building responsive,
+              I&apos;m a frontend developer focused on building responsive,
               user-friendly web apps. Outside of coding, I play in a band, with
               guitar as my main instrument.
             </p>
