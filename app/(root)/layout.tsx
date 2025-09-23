@@ -10,7 +10,7 @@ export default function layout({
   return (
     <>
       <Navbar />
-      <main className="max-w-3xl sm:mx-auto px-4 py-20 w-screen flex-1">
+      <main className="max-w-3xl sm:mx-auto px-4 w-screen flex-1">
         {children}
       </main>
       <Footer />

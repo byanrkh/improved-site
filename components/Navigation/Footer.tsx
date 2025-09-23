@@ -53,7 +53,7 @@ export default function Footer() {
                 return (
                   <li
                     key={idx}
-                    className="text-xs sm:text-sm capitalize text-neutral-300 hover:text-[#E5859F] duration-150"
+                    className="text-xs sm:text-sm capitalize text-neutral-300 hover:text-[#E5859F] duration-150 w-fit"
                   >
                     <Link href={link.path}>{link.label}</Link>
                   </li>
@@ -71,7 +71,7 @@ export default function Footer() {
                 return (
                   <li
                     key={idx}
-                    className="text-xs sm:text-sm text-neutral-300 hover:text-[#E5859F] duration-150"
+                    className="text-xs sm:text-sm text-neutral-300 hover:text-[#E5859F] duration-150 w-fit"
                   >
                     <Link href={social.path} target="_blank">
                       {social.label}

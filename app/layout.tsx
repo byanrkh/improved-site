@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import Grotesk from "@/libs/fonts";
+import { Grotesk } from "@/libs/fonts";
 import "./globals.css";
 import SmoothScrolling from "@/libs/SmoothScrolling";
 

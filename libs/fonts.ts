@@ -1,4 +1,4 @@
-import { Space_Grotesk } from 'next/font/google'
+import { Space_Grotesk, JetBrains_Mono } from 'next/font/google'
 
 const Grotesk = Space_Grotesk({
     display: 'auto',
@@ -7,4 +7,11 @@ const Grotesk = Space_Grotesk({
     weight: ['300', '400', '500', '600', '700'],
 })
 
-export default Grotesk
+const Mono = JetBrains_Mono({
+    display: 'auto',
+    style: ['normal'],
+    subsets: ['latin'],
+    weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
+})
+
+export { Grotesk, Mono }
