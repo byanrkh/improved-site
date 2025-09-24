@@ -8,7 +8,7 @@ import GitHubCalendar from "react-github-calendar";
 export default function Information() {
   return (
     <>
-      <Container header={true}>
+      <Container header>
         <div className="flex justify-between flex-col-reverse sm:flex-row gap-10">
           <div className="sm:w-2/3">
             <h1 className="text-2xl font-bold">Abyan Raditya 🎸</h1>
@@ -16,7 +16,7 @@ export default function Information() {
               Guitarist @{" "}
               <Link
                 href="https://instagram.com/walsongs"
-                className="text-[#E5859F] underline underline-offset-1 hover:underline-offset-[2px] duration-100"
+                className="text-theme underline underline-offset-1 hover:underline-offset-[2px] duration-100"
                 target="_blank"
               >
                 Walsong.

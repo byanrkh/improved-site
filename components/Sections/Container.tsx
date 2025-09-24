@@ -6,9 +6,9 @@ export default function Container({
   className,
   header,
 }: {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
-  header: boolean;
+  header?: boolean;
 }) {
   return (
     <>

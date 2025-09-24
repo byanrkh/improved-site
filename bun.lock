@@ -4,15 +4,12 @@
     "": {
       "name": "portofolio",
       "dependencies": {
-        "portofolio": ".",
         "clsx": "^2.1.1",
         "lenis": "^1.3.11",
         "next": "15.5.3",
-        "portofolio": ".",
-        "portofolio": ".",
-        "portofolio": ".",
         "react": "19.1.0",
         "react-dom": "19.1.0",
+        "react-feather": "^2.0.10",
         "react-github-calendar": "^4.5.10",
         "tailwind-merge": "^3.3.1",
         "vaul": "^1.1.2",
@@ -697,14 +694,6 @@
 
     "picomatch": ["picomatch@4.0.3", "", {}, "sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q=="],
 
-    "portofolio": ["portofolio@file:", { "dependencies": { "clsx": "^2.1.1", "lenis": "^1.3.11", "next": "15.5.3", "portofolio": ".", "portofolio": ".", "portofolio": ".", "react": "19.1.0", "react-dom": "19.1.0", "react-github-calendar": "^4.5.10", "tailwind-merge": "^3.3.1", "vaul": "^1.1.2" }, "devDependencies": { "@eslint/eslintrc": "^3", "@tailwindcss/postcss": "^4", "@types/node": "^20", "@types/react": "^19", "@types/react-dom": "^19", "eslint": "^9", "eslint-config-next": "15.5.3", "tailwindcss": "^4", "typescript": "^5" } }],
-
-    "portofolio": ["portofolio@file:", { "dependencies": { "clsx": "^2.1.1", "lenis": "^1.3.11", "next": "15.5.3", "portofolio": ".", "portofolio": ".", "portofolio": ".", "react": "19.1.0", "react-dom": "19.1.0", "react-github-calendar": "^4.5.10", "tailwind-merge": "^3.3.1", "vaul": "^1.1.2" }, "devDependencies": { "@eslint/eslintrc": "^3", "@tailwindcss/postcss": "^4", "@types/node": "^20", "@types/react": "^19", "@types/react-dom": "^19", "eslint": "^9", "eslint-config-next": "15.5.3", "tailwindcss": "^4", "typescript": "^5" } }],
-
-    "portofolio": ["portofolio@file:", { "dependencies": { "clsx": "^2.1.1", "lenis": "^1.3.11", "next": "15.5.3", "portofolio": ".", "portofolio": ".", "portofolio": ".", "react": "19.1.0", "react-dom": "19.1.0", "react-github-calendar": "^4.5.10", "tailwind-merge": "^3.3.1", "vaul": "^1.1.2" }, "devDependencies": { "@eslint/eslintrc": "^3", "@tailwindcss/postcss": "^4", "@types/node": "^20", "@types/react": "^19", "@types/react-dom": "^19", "eslint": "^9", "eslint-config-next": "15.5.3", "tailwindcss": "^4", "typescript": "^5" } }],
-
-    "portofolio": ["portofolio@file:", { "dependencies": { "clsx": "^2.1.1", "lenis": "^1.3.11", "next": "15.5.3", "portofolio": ".", "portofolio": ".", "portofolio": ".", "react": "19.1.0", "react-dom": "19.1.0", "react-github-calendar": "^4.5.10", "tailwind-merge": "^3.3.1", "vaul": "^1.1.2" }, "devDependencies": { "@eslint/eslintrc": "^3", "@tailwindcss/postcss": "^4", "@types/node": "^20", "@types/react": "^19", "@types/react-dom": "^19", "eslint": "^9", "eslint-config-next": "15.5.3", "tailwindcss": "^4", "typescript": "^5" } }],
-
     "possible-typed-array-names": ["possible-typed-array-names@1.1.0", "", {}, "sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg=="],
 
     "postcss": ["postcss@8.5.6", "", { "dependencies": { "nanoid": "^3.3.11", "picocolors": "^1.1.1", "source-map-js": "^1.2.1" } }, "sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg=="],
@@ -722,6 +711,8 @@
     "react-activity-calendar": ["react-activity-calendar@2.7.14", "", { "dependencies": { "date-fns": "^4.1.0" }, "peerDependencies": { "react": "^18.0.0 || ^19.0.0" } }, "sha512-/yzI76ioAWLQ/xnYt1buDlHhQxDFI3EZV5EFoMVZ4VloMZpCk2TXKSOUY7IO+dliQwLRuS9zbY0VL6LYUA1+IA=="],
 
     "react-dom": ["react-dom@19.1.0", "", { "dependencies": { "scheduler": "^0.26.0" }, "peerDependencies": { "react": "^19.1.0" } }, "sha512-Xs1hdnE+DyKgeHJeJznQmYMIBG3TKIHJJT95Q58nHLSrElKlGQqDTR2HQ9fx5CN/Gk6Vh/kupBTDLU11/nDk/g=="],
+
+    "react-feather": ["react-feather@2.0.10", "", { "dependencies": { "prop-types": "^15.7.2" }, "peerDependencies": { "react": ">=16.8.6" } }, "sha512-BLhukwJ+Z92Nmdcs+EMw6dy1Z/VLiJTzEQACDUEnWMClhYnFykJCGWQx+NmwP/qQHGX/5CzQ+TGi8ofg2+HzVQ=="],
 
     "react-github-calendar": ["react-github-calendar@4.5.10", "", { "dependencies": { "react-activity-calendar": "^2.7.14" }, "peerDependencies": { "react": "^18.0.0 || ^19.0.0" } }, "sha512-p8MeJuM13rLsIIiJmpdNiiWLQfmoVRlq7lRI2z+aX58kYyibioA7vllDQudUzUmvvpV78HXNgsWKUIuaKTCMuQ=="],
 
@@ -811,7 +802,7 @@
 
     "tapable": ["tapable@2.2.3", "", {}, "sha512-ZL6DDuAlRlLGghwcfmSn9sK3Hr6ArtyudlSAiCqQ6IfE+b+HHbydbYDIG15IfS5do+7XQQBdBiubF/cV2dnDzg=="],
 
-    "tar": ["tar@7.5.0", "", { "dependencies": { "@isaacs/fs-minipass": "^4.0.0", "chownr": "^3.0.0", "minipass": "^7.1.2", "minizlib": "^3.1.0", "yallist": "^5.0.0" } }, "sha512-StRGMxeVwyozZpAmHLm2IfbwUlE21DbRXyZrYpGPFBVxM8cxALPongxFVMrs+HqCN7jQVVKyAgKOwGB1WbCp4A=="],
+    "tar": ["tar@7.5.1", "", { "dependencies": { "@isaacs/fs-minipass": "^4.0.0", "chownr": "^3.0.0", "minipass": "^7.1.2", "minizlib": "^3.1.0", "yallist": "^5.0.0" } }, "sha512-nlGpxf+hv0v7GkWBK2V9spgactGOp0qvfWRxUMjqHyzrt3SgwE48DIv/FhqPHJYLHpgW1opq3nERbz5Anq7n1g=="],
 
     "tinyglobby": ["tinyglobby@0.2.15", "", { "dependencies": { "fdir": "^6.5.0", "picomatch": "^4.0.3" } }, "sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ=="],
 
@@ -902,30 +893,6 @@
     "micromatch/picomatch": ["picomatch@2.3.1", "", {}, "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="],
 
     "next/postcss": ["postcss@8.4.31", "", { "dependencies": { "nanoid": "^3.3.6", "picocolors": "^1.0.0", "source-map-js": "^1.0.2" } }, "sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ=="],
-
-    "portofolio/portofolio": ["portofolio@file:.", {}],
-
-    "portofolio/portofolio": ["portofolio@file:.", {}],
-
-    "portofolio/portofolio": ["portofolio@file:.", {}],
-
-    "portofolio/portofolio": ["portofolio@file:.", {}],
-
-    "portofolio/portofolio": ["portofolio@file:.", {}],
-
-    "portofolio/portofolio": ["portofolio@file:.", {}],
-
-    "portofolio/portofolio": ["portofolio@file:.", {}],
-
-    "portofolio/portofolio": ["portofolio@file:.", {}],
-
-    "portofolio/portofolio": ["portofolio@file:.", {}],
-
-    "portofolio/portofolio": ["portofolio@file:.", {}],
-
-    "portofolio/portofolio": ["portofolio@file:.", {}],
-
-    "portofolio/portofolio": ["portofolio@file:.", {}],
 
     "sharp/semver": ["semver@7.7.2", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA=="],
 

@@ -44,7 +44,7 @@ export default function Navbar() {
                   className={cn(
                     "text-sm capitalize text-neutral-300 hover:text-white duration-150",
                     pathname == nav.path
-                      ? "underline underline-offset-2 text-[#E5859F] hover:text-[#E5859F]"
+                      ? "underline underline-offset-2 text-theme hover:text-theme"
                       : ""
                   )}
                   key={idx}
