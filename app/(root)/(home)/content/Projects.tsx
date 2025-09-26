@@ -32,7 +32,7 @@ export default function Projects() {
                   Preview
                 </Link>
               </div>
-              <hr className="border-t border-t-[#252529] decoration-dotted my-3" />
+              <hr className="border-t border-t-[#252529] border-dotted my-3" />
               <div className="flex items-center gap-5">
                 <ul className="flex gap-2">
                   <li className="text-sm w-fit bg-[#18181b] border border-[#252529] px-2 py-1 rounded text-zinc-400">
@@ -45,7 +45,7 @@ export default function Projects() {
                 <span className="bg-zinc-400 w-[3.5px] h-[3.5px] rounded-full"></span>
                 <p className="text-sm text-zinc-400">typescript</p>
               </div>
-              <hr className="border-t border-t-[#252529] decoration-dotted my-3" />
+              <hr className="border-t border-t-[#252529] border-dotted my-3" />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
                 obcaecati.

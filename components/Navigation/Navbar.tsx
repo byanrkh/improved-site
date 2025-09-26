@@ -37,6 +37,7 @@ export default function Navbar() {
               height={40}
             />
           </Link>
+          <div className="p-5 absolute"></div>
           <ul className="hidden sm:flex gap-4">
             {Links.map((nav, idx) => {
               return (
